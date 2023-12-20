@@ -3,7 +3,9 @@ const app = express();
 const http = require('http');
 // const path = require('path');
 const { Server } = require('socket.io');
-const ACTIONS = require('./src/Actions.js');
+// const ACTIONS = require('./src/Actions.js');
+const ACTIONS = require('./frontend/src/Actions.js');
+
 
 const server = http.createServer(app);
 const io = new Server(server);
