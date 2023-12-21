@@ -9,6 +9,22 @@
 Its frontend railway service - https://4vinn-cypher.up.railway.app/ <br>
 Its backend railway service  - https://4vinn-cypher-be.up.railway.app/ <br>
 
+>For that, I restructured my repo into a monorepo, that looks like this:
+```
+.
+├── .gitignore
+├── README
+├── frontend/
+│   ├── public
+│   ├── src
+│   ├── package.json
+│   └── package-lock.json
+└── backend/
+    ├── server.js
+    ├── package.json
+    └── package-lock.json
+```
+
 ---
 
 
