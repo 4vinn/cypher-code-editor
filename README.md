@@ -33,18 +33,26 @@ Its backend railway service  - https://4vinn-cypher-be.up.railway.app/ <br>
 > Created separate `package.json` for each backend and frontend, updated scipts/dependencies accordingly
 
 > Now, The `package-lock.json` file is used by npm to lock down the versions of dependencies to ensure consistent builds across different environments.  <br> Regenerated the `package-lock.json` in each folder using `install --package-lock-only`.
-
 <details> 
-<summary> `npm install` </summary>
+<summary> npm install: </summary>
 
-Here's what npm ci does:
+When you run npm install:
 
-It reads the package-lock.json file to determine the exact versions of dependencies.
-It installs the exact versions specified in the lock file without making any changes to the node_modules folder.
-It does not update the package-lock.json file.
+1. It looks at your package.json file and installs the dependencies specified there.
+
+1. If there's a package-lock.json file, it uses it to ensure that the exact versions of the dependencies are installed.
+
+1. It creates or updates the node_modules folder in your project directory, which contains all the installed dependencies.
+
+It also generates a package-lock.json file if one does not exist or updates it to reflect the current state of installed dependencies.
 
 </details>
 
+> Made a railway service named "Cypher Code Editor - Frontend". Set the root dir to /frontend. Connected the github repo. Setuped the service variables. Generated a domain.
+
+> Made a railway service named "Cypher Code Editor - Backend". Set the root dir to /backend. Connected the github repo. Setuped the service variables. Generated a domain. 
+
+> On frontend service, set service variable to call the backend domain. 
 ---
 
 
@@ -62,7 +70,7 @@ It does not update the package-lock.json file.
 
 
 <details>
-<summary> Useful links: </summary> 
+<summary> Other links: </summary> 
 
 <br>
 
