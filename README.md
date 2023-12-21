@@ -3,11 +3,14 @@
 ---
 
 #### Deployed on Railway
+<br>
 
 >Made 2 parallel railway services, one serving the frontend and the other serving the backend
 
 Its frontend railway service - https://4vinn-cypher.up.railway.app/ <br>
 Its backend railway service  - https://4vinn-cypher-be.up.railway.app/ <br>
+
+<br>
 
 >For that, I restructured my repo into a monorepo, that looks like this:
 ```
@@ -21,9 +24,26 @@ Its backend railway service  - https://4vinn-cypher-be.up.railway.app/ <br>
 │   └── package-lock.json
 └── backend/
     ├── server.js
+    ├── actions.js
     ├── package.json
     └── package-lock.json
 ```
+<br>
+
+> Created separate `package.json` for each backend and frontend, updated scipts/dependencies accordingly
+
+> Now, The `package-lock.json` file is used by npm to lock down the versions of dependencies to ensure consistent builds across different environments.  <br> Regenerated the `package-lock.json` in each folder using `install --package-lock-only`.
+
+<details> 
+<summary> `npm install` </summary>
+
+Here's what npm ci does:
+
+It reads the package-lock.json file to determine the exact versions of dependencies.
+It installs the exact versions specified in the lock file without making any changes to the node_modules folder.
+It does not update the package-lock.json file.
+
+</details>
 
 ---
 
