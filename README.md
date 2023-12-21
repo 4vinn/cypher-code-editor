@@ -60,7 +60,9 @@ It also generates a package-lock.json file if one does not exist or updates it t
 <summary> Other links: </summary> 
 
 <br>
+_hidden_
 
+<!--
 ```
 https://discord.com/channels/713503345364697088/1187120237947125910 
 ```
@@ -70,11 +72,7 @@ https://chat.openai.com/share/405fc4b6-ee1b-49ba-a3a7-84ed640c568a
 ```
 https://chat.openai.com/share/996d4d7c-8a60-4037-a4cd-b017fc0699c1
 ```
+-->
 
 </details>
 
-#### hidden field with metadata 👇
-
-<div class="meta_for_parser tablespecs" style="visibility:hidden">{"dataname":"environment","colvar":"varname","colval":"value"} carsada</div>
-
-#### hidden field with metadata 👆
