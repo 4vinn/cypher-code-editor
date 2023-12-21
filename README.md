@@ -1,5 +1,6 @@
 ### 
-Deployed on Railways - https://4vinn-cypher.up.railway.app/ <br>
+Deployed on Railways <br>
+Its frontend service - https://4vinn-cypher.up.railway.app/ <br>
 Its backend service - https://4vinn-cypher-be.up.railway.app/ <br>
 
 <br><br>
