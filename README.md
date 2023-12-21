@@ -50,24 +50,11 @@ It also generates a package-lock.json file if one does not exist or updates it t
 
 > Made a railway service named "Cypher Code Editor - Frontend". Set the root dir to /frontend. Connected the github repo. Setuped the service variables. Generated a domain.
 
-> Made a railway service named "Cypher Code Editor - Backend". Set the root dir to /backend. Connected the github repo. Setuped the service variables. Generated a domain. 
+> Made a railway service named "Cypher Code Editor - Backend". Set the root dir to /backend. Connected the github repo. Generated a domain. 
 
 > On frontend service, set service variable to call the backend domain. 
+
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <details>
 <summary> Other links: </summary> 
@@ -85,3 +72,9 @@ https://chat.openai.com/share/996d4d7c-8a60-4037-a4cd-b017fc0699c1
 ```
 
 </details>
+
+#### hidden field with metadata 👇
+
+<div class="meta_for_parser tablespecs" style="visibility:hidden">{"dataname":"environment","colvar":"varname","colval":"value"} carsada</div>
+
+#### hidden field with metadata 👆
