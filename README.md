@@ -1,11 +1,17 @@
-A real-time code editor made using React.js, Node.js, Express.js, Websocet.io
+### A real-time code editor made using React.js, Node.js, Express.js, Websocet.io
 
-### Deployed on Railway
+---
+
+#### Deployed on Railway
+
+>Made 2 parallel railway services, one serving the frontend and the other serving the backend
 
 Its frontend railway service - https://4vinn-cypher.up.railway.app/ <br>
-Its backend railway service - https://4vinn-cypher-be.up.railway.app/ <br>
+Its backend railway service  - https://4vinn-cypher-be.up.railway.app/ <br>
 
-<br>
+---
+
+
 
 
 
