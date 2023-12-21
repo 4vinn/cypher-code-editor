@@ -35,16 +35,15 @@ git commit -m "added app.js"
 git push origin main #(in repo)
 ```
 
-//pushed to repo, but u did changes through github web. Now to update it on local machine too: 
+//pushed to repo, but u did changes through github web. Now to update it on local machine too:<br> 
 //update your local code with the latest changes from the remote main branch:
 ```
 git fetch 
 git merge origin/main
 ```
  OR
-
 ```
-- git pull origin main
+git pull origin main
 ```
 
 
