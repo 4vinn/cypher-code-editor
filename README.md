@@ -27,6 +27,8 @@ For that, I restructured my repo into a shared monorepo that utilizes npm worksp
         └── package.json
 ```
 
+The `package.json` at the root of the repository contains specific scripts to build and or start each app.
+
 Created separate `package.json` for each backend and frontend, updated scripts/dependencies accordingly.
 
 The `package-lock.json` file is used by npm to lock down the versions of dependencies to ensure consistent builds across different environments.  <br> Regenerate the `package-lock.json` by running `npm install --package-lock-only`.
@@ -60,7 +62,10 @@ It also generates a package-lock.json file if one does not exist or updates it t
     Set the start command to: `npm run start:backend`
 7. Connect your GitHub repository to the `Backend` service
 8. Connect the same Github repository to the `Frontend` service
- 
+
+**Notes**
+- Leave each services root directory set to `/`
+
 ---
 
 <details>
