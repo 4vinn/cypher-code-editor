@@ -1,0 +1,12 @@
+{
+  "name": "realtime-editor",
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build:frontend": "npm run -w realtime-editor-frontend build",
+    "start:frontend": "npm run -w realtime-editor-frontend start",
+    "start:backend": "npm run -w realtime-editor-backend start"
+  }
+}
